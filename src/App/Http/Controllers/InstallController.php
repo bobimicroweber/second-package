@@ -1,5 +1,4 @@
 <?php
-
 namespace Microweber\App\Http\Controllers;
 
 use Illuminate\Support\Facades\Request;

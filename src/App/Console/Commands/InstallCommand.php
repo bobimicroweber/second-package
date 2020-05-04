@@ -1,5 +1,4 @@
 <?php
-
 namespace Microweber\App\Console\Commands;
 
 use Illuminate\Console\Command;
