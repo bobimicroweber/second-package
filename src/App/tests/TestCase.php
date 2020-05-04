@@ -24,7 +24,7 @@ class TestCase extends \Illuminate\Foundation\Testing\TestCase
         $testEnvironment = $testing_env_name = env('APP_ENV') ? env('APP_ENV') : 'testing';
 
 
-        $config_folder = __DIR__ . '/../../../../config/';
+        $config_folder = __DIR__ . '/../../../../../../config/';
         $mw_file = $config_folder . 'microweber.php';
 
 
@@ -35,7 +35,7 @@ class TestCase extends \Illuminate\Foundation\Testing\TestCase
             putenv("APP_ENV=$testing_env_name");
             if (!defined('MW_UNIT_TEST_ENV_FROM_TEST')) {
                 define('MW_UNIT_TEST_ENV_FROM_TEST', $testing_env_name);
-                $config_folder = __DIR__ . '/../../../../config/';
+                $config_folder = __DIR__ . '/../../../../../../config/';
                 $config_folder = realpath($config_folder);
                 $mw_file = $config_folder . '/microweber.php';
             }
@@ -57,7 +57,7 @@ class TestCase extends \Illuminate\Foundation\Testing\TestCase
             );"
         );
 
-        $app = require __DIR__ . '/../../../../bootstrap/app.php';
+        $app = require __DIR__ . '/../../../../../../bootstrap/app.php';
         $app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
         //  $app['env'] = $testing_env_name;
         $environment = $app->environment();
