@@ -1,8 +1,8 @@
 <?php
-namespace Microweber\App\Console\Commands;
+namespace Microweber\App\Commands;
 
 use Illuminate\Console\Command;
-use Microweber\App\Http\Controllers\DefaultController;
+use Microweber\App\Controllers\DefaultController;
 use Microweber\App\Providers\Illuminate\Support\Facades\DB;
 use Symfony\Component\Console\Input\InputArgument;
 use Microweber\App\Install\DbInstaller;

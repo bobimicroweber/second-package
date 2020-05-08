@@ -1,6 +1,6 @@
 <?php
 
-namespace Microweber\App\Http\Controllers;
+namespace Microweber\App\Controllers;
 
 use function GuzzleHttp\Psr7\parse_query;
 use Microweber\App\View;

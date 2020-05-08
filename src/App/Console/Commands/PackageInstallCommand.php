@@ -1,6 +1,6 @@
 <?php
 
-namespace Microweber\App\Console\Commands;
+namespace Microweber\App\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;

@@ -1,10 +1,11 @@
 <?php
-namespace Microweber\App\Console\Commands;
+
+namespace Microweber\App\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use Microweber\App\Http\Controllers\InstallController;
+use Microweber\App\Controllers\InstallController;
 
 
 class InstallCommand extends Command

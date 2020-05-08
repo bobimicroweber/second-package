@@ -1,10 +1,10 @@
 <?php
 
-namespace Microweber\App\Console\Commands;
+namespace Microweber\App\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Microweber\App\Http\Controllers\DefaultController;
+use Microweber\App\Controllers\DefaultController;
 
 
 // php artisan microweber:module shop 1 --env=localhost
