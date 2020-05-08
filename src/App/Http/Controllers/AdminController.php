@@ -1,6 +1,6 @@
 <?php
 
-namespace Microweber\App\Controllers;
+namespace Microweber\App\Http\Controllers;
 
 use MicroweberPackages\TemplateManager\View;
 use Illuminate\Routing\Controller;
