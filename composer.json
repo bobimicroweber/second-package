@@ -16,7 +16,8 @@
     "microweber-packages/microweber-helpers": "dev-master"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.0"
+    "phpunit/phpunit": "^9.0",
+    "symplify/monorepo-builder": "^8.1"
   },
   "autoload": {
     "psr-4": {
