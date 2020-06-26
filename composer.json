@@ -1,41 +1,12 @@
 {
-    "name": "microweber-packages/microweber-app",
-    "description": "Package app allows you to run microweber.",
-    "version": "0.0.1",
-    "authors": [
-        {
-            "name": "Microweber",
-            "email": "info@microweber.com"
-        },
-        {
-            "name": "Bozhidar Slaveykov",
-            "email": "bobi@microweber.com"
-        }
-    ],
+    "name": "your-monorepo/second-package",
     "require": {
         "php": "^7.2",
-        "symfony/dependency-injection": "^5.0",
-        "symfony/http-kernel": "^5.0",
-        "microweber-packages/microweber-helpers": "dev-master"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.3",
-        "symplify/monorepo-builder": "^8.1"
+        "symfony/dependency-injection": "^5.0"
     },
     "autoload": {
         "psr-4": {
-            "Microweber\\": "src/",
-            "MicroweberPackages\\TemplateManager\\": "microweber-packages/microweber-template-manager/src",
-            "MicroweberPackages\\BackupManager\\": "microweber-packages/microweber-backup-manager/src"
+            "YourMonorepo\\SecondPackage\\": "src"
         }
-    },
-    "replace": {
-        "microweber-packages/microweber-template-manager": "self.version",
-        "microweber-packages/microweber-backup-manager": "self.version"
-    },
-    "homepage": "http://microweber.com",
-    "license": "MIT",
-    "support": {
-        "email": "support@microweber.com"
     }
 }
