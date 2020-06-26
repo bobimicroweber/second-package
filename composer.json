@@ -25,13 +25,13 @@
     "autoload": {
         "psr-4": {
             "Microweber\\": "src/",
-            "YourMonorepo\\FirstPackage\\": "packages/first-package/src",
-            "YourMonorepo\\SecondPackage\\": "packages/second-package/src"
+            "MicroweberPackages\\TemplateManager\\": "microweber-packages/microweber-template-manager/src",
+            "MicroweberPackages\\BackupManager\\": "microweber-packages/microweber-backup-manager/src"
         }
     },
     "replace": {
-        "your-monorepo/first-package": "self.version",
-        "your-monorepo/second-package": "self.version"
+        "microweber-packages/microweber-template-manager": "self.version",
+        "microweber-packages/microweber-backup-manager": "self.version"
     },
     "homepage": "http://microweber.com",
     "license": "MIT",
