@@ -6,4 +6,5 @@ namespace YourMonorepo\SecondPackage;
 
 final class SecondClass
 {
+    private $aaa= 1;
 }
