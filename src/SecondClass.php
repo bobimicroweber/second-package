@@ -9,6 +9,7 @@ final class SecondClass
     private $aaa= 1;
     private $bbb= 2;
     private $ccc= 3;
+    private $ddd= 4;
 
     // treti
 }
