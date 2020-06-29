@@ -8,4 +8,6 @@ final class SecondClass
 {
     private $aaa= 1;
     private $bbb= 1;
+
+    // treti
 }
